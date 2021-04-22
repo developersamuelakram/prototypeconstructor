@@ -10,7 +10,6 @@ AllEmployees.prototype = {
     console.log(bankname);
   },
 };
-
 // child type
 function Worker(name, dob, position) {
   this.name = name;
@@ -27,7 +26,6 @@ mark.bankAccount(mark.name + " has Scb Bank");
 mark.attendance(mark.name + " has a good attendance");
 
 // worker two
-
 let ninja = new Worker("Ninja", "11th JAN 1992", "CEO");
 console.log(ninja);
 mark.bankAccount(ninja.name + " has BBL Bank");
